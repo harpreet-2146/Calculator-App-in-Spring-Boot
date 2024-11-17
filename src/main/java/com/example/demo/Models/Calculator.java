@@ -54,6 +54,9 @@ public class Calculator {
             case "^":
                 result = Math.pow(this.leftOperand,this.rightOperand);
                 break;
+            case "%":
+                result = this.leftOperand % this.rightOperand;
+                break;
             default:
                     result = 0;
         }
